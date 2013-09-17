@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="cucumber.test.RunTest" time="8.432" tests="5" errors="0" skipped="0" failures="0">
+<testsuite name="cucumber.test.RunTest" time="7.1" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/lib"/>
@@ -15,8 +15,9 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
+    <property name="test" value="RunTest"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/oanarusu/Documents/working code/ContactManagerSample"/>
+    <property name="user.dir" value="/Users/oanarusu/Documents/TestingWithAppium/ContactManagerSample"/>
     <property name="java.runtime.version" value="1.7.0_25-b15"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/lib/endorsed"/>
@@ -43,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.7"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -Ddevice=android"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -Dtest=RunTest -Ddevice=android"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -62,9 +63,9 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="Given I am on add user page   " classname="Given I am on add user page   " time="0.003"/>
+  <testcase name="Given I am on add user page   " classname="Given I am on add user page   " time="0.002"/>
   <testcase name="When I click to add a contact    " classname="When I click to add a contact    " time="0"/>
   <testcase name="And I complete the details     " classname="And I complete the details     " time="0"/>
   <testcase name="Then I can save a new contact      " classname="Then I can save a new contact      " time="0"/>
-  <testcase name="Scenario: Add a new contact  " classname="Scenario: Add a new contact  " time="8.429"/>
+  <testcase name="Scenario: Add a new contact  " classname="Scenario: Add a new contact  " time="7.098"/>
 </testsuite>

@@ -40,7 +40,7 @@
           },
           {
             "result": {
-              "duration": 4005027000,
+              "duration": 3996017000,
               "status": "passed"
             },
             "name": "I can save a new contact",

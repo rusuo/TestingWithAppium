@@ -9,8 +9,8 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-            <applicationUrl>file:///Users/oanarusu/Documents/TestingUsingAppium/AddContactWebsite/index.html</applicationUrl>
-            <device>firefox</device>
+            <applicationUrl>file:///Users/oanarusu/Documents/TestingWithAppium/AddContactWebsite/index.html</applicationUrl>
+            <device>android</device>
     </properties>
 
     <build>

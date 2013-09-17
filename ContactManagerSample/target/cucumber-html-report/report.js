@@ -48,28 +48,28 @@ formatter.match({
   "location": "AddContactStepDefs.I_am_on_add_user_page()"
 });
 formatter.result({
-  "duration": 1981211000,
+  "duration": 2886997000,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContactStepDefs.I_click_to_add_a_contact()"
 });
 formatter.result({
-  "duration": 4689533000,
+  "duration": 4449847000,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContactStepDefs.I_complete_the_details()"
 });
 formatter.result({
-  "duration": 23000,
+  "duration": 14115398000,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContactStepDefs.I_can_save_a_new_contact()"
 });
 formatter.result({
-  "duration": 4005027000,
+  "duration": 3996017000,
   "status": "passed"
 });
 });

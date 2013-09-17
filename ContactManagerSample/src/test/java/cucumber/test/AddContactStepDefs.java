@@ -17,6 +17,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.List;
 
 
 public class AddContactStepDefs {
@@ -28,7 +29,7 @@ public class AddContactStepDefs {
         if (Settings.device.toUpperCase().equals("ANDROID")){
             DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.setCapability(CapabilityType.BROWSER_NAME, "");
-            capabilities.setCapability("app", "/Users/oanarusu/Documents/TestingUsingAppium/ContactManager.apk");
+            capabilities.setCapability("app", "/Users/oanarusu/Documents/TestingWithAppium/ContactManager.apk");
             capabilities.setCapability("device", "Android");
             capabilities.setCapability("version", "4.2");
             capabilities.setCapability("app-package", "com.example.android.contactmanager");
@@ -58,7 +59,9 @@ public class AddContactStepDefs {
 
     @And("^I complete the details$")
     public void I_complete_the_details() throws Throwable {
-       //
+        List<WebElement> textFieldsList = driver.findElements(By.tagName("textfield"));
+        textFieldsList.get(0).sendKeys("Some Name");
+        textFieldsList.get(2).sendKeys("Some@example.com");
     }
 
     @Then("^I can save a new contact$")

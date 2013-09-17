@@ -20,7 +20,7 @@ public class TestAndroidWithoutCucumber {
         @Before
         public void setUp() throws Exception {
             // set up appium: specify the path to the app folder from your computer
-            File app = new File("/Users/oanarusu/Documents/TestingUsingAppium", "ContactManager.apk");
+            File app = new File("/Users/oanarusu/Documents/TestingWithAppium", "ContactManager.apk");
             DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.setCapability("device","Android");
             capabilities.setCapability(CapabilityType.BROWSER_NAME, "");
