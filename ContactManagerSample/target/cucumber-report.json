@@ -1,0 +1,59 @@
+[
+  {
+    "id": "add-a-new-contact",
+    "description": "",
+    "name": "add a new contact",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "id": "add-a-new-contact;add-a-new-contact",
+        "tags": [
+          {
+            "name": "@android",
+            "line": 3
+          },
+          {
+            "name": "@web",
+            "line": 3
+          }
+        ],
+        "description": "",
+        "name": "Add a new contact",
+        "keyword": "Scenario",
+        "line": 4,
+        "steps": [
+          {
+            "name": "I am on add user page",
+            "keyword": "Given ",
+            "line": 5
+          },
+          {
+            "name": "I click to add a contact",
+            "keyword": "When ",
+            "line": 6
+          },
+          {
+            "name": "I complete the details",
+            "keyword": "And ",
+            "line": 7
+          },
+          {
+            "result": {
+              "duration": 4005027000,
+              "status": "passed"
+            },
+            "name": "I can save a new contact",
+            "keyword": "Then ",
+            "line": 8,
+            "match": {
+              "location": "AddContactStepDefs.I_can_save_a_new_contact()"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "cucumber/test/Contacts.feature"
+  }
+]
