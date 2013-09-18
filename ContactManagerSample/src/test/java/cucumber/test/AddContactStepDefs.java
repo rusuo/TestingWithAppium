@@ -29,7 +29,7 @@ public class AddContactStepDefs {
         if (Settings.device.toUpperCase().equals("ANDROID")){
             DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.setCapability(CapabilityType.BROWSER_NAME, "");
-            capabilities.setCapability("app", "/Users/oanarusu/Documents/TestingWithAppium/ContactManager.apk");
+            capabilities.setCapability("app", "<path>/ContactManager.apk");
             capabilities.setCapability("device", "Android");
             capabilities.setCapability("version", "4.2");
             capabilities.setCapability("app-package", "com.example.android.contactmanager");
